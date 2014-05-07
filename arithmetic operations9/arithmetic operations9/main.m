@@ -19,6 +19,16 @@ int main(int argc, const char * argv[])
         int d = 4;
         int result;
         result = a-b;
+        NSLog(@"a -b = %i", result);
+        result = b * c;
+        NSLog(@"b * c = %i",result);
+        result = a / c;
+        NSLog(@"a / c = %i", result);
+        result = a +b *c;// precedence
+        NSLog(@"a + b * c = %i",result);
+        NSLog(@"a * b + c * d = %i",a *b + c * d);
+        
+    
     }
     return 0;
 }
