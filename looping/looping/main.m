@@ -13,10 +13,16 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int n,triangularnumber;
+        triangularnumber = 0;
+        for (n=1;n <=200; n = n+ 1)
+        {
+            triangularnumber += n;
+            
+            
+        }
         
-    }
+    NSLog(@"the 200th triangular number is %i", triangularnumber);
     return 0;
 }
-
+}
